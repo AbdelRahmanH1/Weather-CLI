@@ -9,6 +9,8 @@ const { getWeatherData, getWeatherDetails } = require("./getData");
 // version of the yargs
 yargs.version("1.0.1");
 
+yargs.scriptName("Weather CLI");
+
 yargs.command({
   command: "getData",
   describe: `${style.bold(style.blue("Get Weather for each country"))}`,
