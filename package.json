@@ -1,0 +1,16 @@
+{
+  "name": "weather_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "weather": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "yargs": "^17.1.1-candidate.0"
+  }
+}
